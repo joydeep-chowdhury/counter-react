@@ -1,0 +1,48 @@
+.buttonnormal{
+    position: relative;
+    border: none;
+    background-color: #8a8b92;
+    font-size: 25px;
+    color: rgb(8, 8, 8);
+    cursor: pointer;
+    border-radius: 15px;
+    border: 3px solid;
+    width:100px;
+    height:50px;
+    left:5px;
+}
+
+.buttonreset{
+    position: relative;
+    border: none;
+    background-color: #f80707;
+    font-size: 25px;
+    color: rgb(8, 8, 8);
+    cursor: pointer;
+    border-radius: 15px;
+    border: 3px solid;
+    width:100px;
+    height:80px;
+    top:20px;
+}
+
+.buttonnormal:hover{
+    background-color: rgb(8, 8, 8);
+    color:rgb(255, 255, 255);
+}
+
+.buttonreset:hover{
+    background-color: rgb(4, 83, 24);
+    color:rgb(255, 255, 255);
+}
+
+.count{
+    font-size: 30px;
+    position: absolute;
+    top:250px;
+    left:720px;
+    width: 100px;
+    height: 50px;
+    color:red;
+    font-weight: bold;
+}
